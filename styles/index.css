@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#intro_capsule {
+    display: flex;
+    justify-content: center;
+    background-image: url("backgrounds/blocks.jpg");
+
+}
+
+#intro {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 60%;
+    margin: 200px;
+}
+
+#intro_left {
+    flex-basis: 70%;
+    padding: 50px;
+}
+
+#social_links {
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#social_links img {
+    height: 30px;
+
+}
+
+#social_links button {
+    background: none;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+#name {
+}
+
+#intro_right {
+}
+
+#intro_right img {
+    height: 370px;
+    width: 280px;
+    border-radius: 50%;
+    border: 5px solid rgb(30, 156, 87);
+}
