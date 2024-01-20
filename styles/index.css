@@ -2,8 +2,13 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
+/*Introduction*/
 #intro_capsule {
     display: flex;
     justify-content: center;
@@ -27,7 +32,7 @@
 }
 
 #social_links {
-    width: 165px;
+    width: 170px;
     display: flex;
     justify-content: space-between;
 
@@ -45,8 +50,10 @@
     cursor: pointer;
 }
 
-
 #name {
+    font-size: 40px;
+    color: rgb(6, 94, 221);
+    
 }
 
 #intro_right {
@@ -56,5 +63,26 @@
     height: 370px;
     width: 280px;
     border-radius: 50%;
-    border: 5px solid rgb(30, 156, 87);
+    border: 5px solid rgb(6, 94, 221);
+}
+
+/*Projects*/
+#projects_capsule {
+    display: flex;
+    justify-content: center;
+    background-image: url("backgrounds/waves.jpg");
+}
+
+#projects_container {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.project_container {
+    background-color: aliceblue;
+    width: 300px;
+    height: 400px;
+    border-radius: 5%;
 }

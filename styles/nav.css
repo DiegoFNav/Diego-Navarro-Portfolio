@@ -1,6 +1,8 @@
 .topnav {
-    background-color: #105edd;
+    background-color: rgb(16, 94, 221);
     overflow: hidden;
+    position: fixed;
+    width: 100%;
     }
 
   /* topnav links style */
