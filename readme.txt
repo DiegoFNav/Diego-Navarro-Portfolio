@@ -38,7 +38,14 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
-
+https://www.turing.com/blog/software-engineer-portfolio-tips/
+https://loading.io/color/feature/
+https://www.commarts.com/webpicks
+https://fonts.google.com/
+https://www.smashingmagazine.com/2009/11/designing-css-buttons-techniques-and-resources/#:~:text=The%20simplest%20way%20to%20style,(%E2%80%9CSubmit%E2%80%9D)%20elements.&text=The%20important%20thing%20to%20note,differently%20with%20the%20same%20CSS.
+https://developer.mozilla.org/en-US/
+https://depositphotos.com/photos/website-backgrounds.html
+https://yoksel.github.io/flex-cheatsheet/
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?

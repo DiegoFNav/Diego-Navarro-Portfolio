@@ -60,8 +60,8 @@
 }
 
 #intro_right img {
-    height: 370px;
-    width: 280px;
+    height: 290px;
+    width: 220px;
     border-radius: 50%;
     border: 5px solid rgb(6, 94, 221);
 }
@@ -69,20 +69,74 @@
 /*Projects*/
 #projects_capsule {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: 765px;
     background-image: url("backgrounds/waves.jpg");
+    background-repeat: repeat-x;
+}
+
+#projects_capsule h2 {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5%;
+    border: 5px solid rgb(6, 94, 221); 
+    margin: 0;
 }
 
 #projects_container {
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
-    flex-basis: 50%;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    flex-basis: 80%;
 }
 
 .project_container {
     background-color: aliceblue;
-    width: 300px;
-    height: 400px;
+    padding: 15px;
+    width: 400px;
+    height: 300px;
     border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+    margin: 12px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#munch_logo {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+@media (min-width: 1200px) {
+    #intro_right img {
+        height: 370px;
+        width: 280px;
+    }
+
+    #munch_logo {
+        height: 100px;
+        width: 100px;
+    }
+    /*Projects*/
+    #projects_container {
+        flex-direction: row;
+    }
+
+    .project_container {
+        width: 400px;
+        height: 430px;
+        box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+        margin: 25px;
+        padding: 30px;
+    }
+
 }
