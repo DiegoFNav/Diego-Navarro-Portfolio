@@ -6,8 +6,12 @@
         <meta name="description" content="Worlds is a turn based Role playing game about an adventure across the multiverse.">
         <!-- you would link to an external stylesheet here! -->
         <link rel="stylesheet" href="styles/nav.css">
+        <link rel="stylesheet" href="styles/worlds.css">
         <!-- you would also link to Bootstrap here! -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
     <title>Diego Navarro project Worlds</title>
     </head>
     <body>
@@ -57,12 +61,54 @@
         </nav>
 
         <main class="main">
+            <div id="title_section">
+                <div class="left_section">
+                    <h1 class="suez-one-regular">Worlds</h1>
+                    <p>An Interdimensional Journey</p>
+                </div>
+                <div class="right_section">
+                    <video class="video" src="videos/space.mp4" autoplay muted loop></video>
+                </div>
+            </div>
+
+            <div id="about_section">
+                <div class="left_section">
+                    <div>
+                        <h5>About Worlds</h5>
+                        <h1 class="suez-one-regular">The Multiverse awaits</h1>
+                        <p>Worlds follows the adventure of a boy from an isolated island who dreams of exploring lands across the ocean. He finds himself caught up in a battle that spans the multiverse. Tasked with protecting dimensions under attack, he sets off to form a team to fight against the coming darkness.</p>
+                    </div>
+                </div>
+                <div class="right_section">
+                    <video class="video" src="videos/about_worlds.mp4" controls autoplay muted loop></video>
+                </div>
+            </div>
+
+            <h1 id="gameplay_title" class="suez-one-regular">Gameplay</h1>
+            <div id="gameplay_section">
+                <div id="gameplay_container">
+                    <div class="left_section">
+                        <h2>Cutscenes</h2>
+                        <p>Here are some example cutscenes from the beginning of the game. We see how the player begins their journey on the island nation of Luna.</p>
+                    </div>
+                    <div class="right_section">
+                        <div class="top">
+                            <video class="video" src="videos/gameplay_1.mp4" controls autoplay muted loop></video>
+                            <video class="video" src="videos/gameplay_2.mp4" controls autoplay muted loop></video>
+                        </div>
+                        <div class="bot">
+                            <video class="video" src="videos/gameplay_3.mp4" controls autoplay muted loop></video>
+                            <video class="video" src="videos/gameplay_4.mp4" controls autoplay muted loop></video>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             <p>
             <a href="http://validator.w3.org/check?uri=referer">
                 W3C validator
             </a>
             </p>
-            <p>Text goes here</p>
 
         </main>
         <script>

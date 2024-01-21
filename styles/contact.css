@@ -91,6 +91,8 @@
 #programming_video {
     height: 90%;
     width: 90%;
+    margin: 25px;
+    border-radius: 10%;
 }
 
 

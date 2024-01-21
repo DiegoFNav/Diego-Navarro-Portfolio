@@ -68,6 +68,7 @@ body {
     transform: translateX(-350px);
     transition: transform 0.2s;
     overflow: hidden;
+    z-index: 3;
 }
 
 .nav_close {

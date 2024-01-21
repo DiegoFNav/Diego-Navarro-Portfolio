@@ -1,0 +1,215 @@
+.main {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+#title_section {
+    display: flex;
+    height: 370px;
+    flex-direction: column;
+    
+}
+
+.suez-one-regular {
+    font-family: "Suez One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title_section .left_section {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 30px;
+}
+
+#title_section .left_section h1 {
+    margin: 0;
+}
+
+#title_section .right_section {
+    height: 20vh;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#about_section {
+    flex-direction: column;
+    display: flex;
+    background-image: url("backgrounds/water.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about_section .left_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about_section .left_section div {
+    background-color: #0057b3be;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 80%;
+    padding: 15px;
+    border-radius: 15%;
+    margin: 15px;   
+}
+
+#about_section .left_section div h1, #about_section .left_section div h5 {
+    margin: 0;
+    text-align: center;
+}
+
+#about_section .left_section div h5 {
+    font-size: large;
+}
+
+#about_section .left_section div p {
+    text-align: center;
+    line-height: 1.3;
+}
+
+#gameplay_title {
+    text-align: center;
+}
+
+#gameplay_section {
+    background-image: url("backgrounds/city.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameplay_container {
+    background-color: #E7F3C1;
+    display: flex;
+    flex-basis: 100%;
+    margin:0px;
+}
+
+#gameplay_container .left_section {
+    flex-basis: 30%;
+    padding: 35px;
+}
+#gameplay_container .right_section {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#gameplay_container .right_section .top {
+    display: none;
+}
+
+#gameplay_container .right_section .bot {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 800px) {
+    #title_section {
+        display: flex;
+        height: 300px;
+        flex-direction: row;
+    }
+    #title_section .left_section {
+        flex-basis: 30%;
+        align-items: flex-end;
+        padding: 30px;
+    }
+    #title_section .right_section {
+        flex-basis: 70%;
+        height: 100%;
+    }
+    #about_section {
+        flex-direction: row;
+    }
+    #about_section .left_section div {
+        border-radius: 5%;
+    }
+    #about_section .left_section {
+        flex-basis: 35%;
+    }
+    #about_section .right_section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 65%;
+    }
+    #about_section .right_section video {
+        height: 80%;
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #about_section .left_section {
+        flex-basis: 50%;
+    }
+    #about_section .left_section div {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #about_section .right_section {
+        flex-basis: 50%;
+    }
+    #about_section .right_section video {
+        height: 80%;
+        width: 80%;
+    }
+
+    #gameplay_container {
+        flex-basis: 90%;
+        margin: 15px;
+    }
+    #gameplay_container .left_section {
+        flex-basis: 15%;
+        padding: 25px;
+    }
+    #gameplay_container .left_section h2 {
+        margin-top: 70%;
+    }
+    #gameplay_container .left_section p {
+        line-height: 1.5;
+    }
+    #gameplay_container .right_section {
+        flex-basis: 85%;
+        padding: 10px;
+
+    }
+    #gameplay_container .right_section .top {
+        display: flex;
+        flex-direction: row;
+    }
+    #gameplay_container .right_section .bot {
+        flex-direction: row;
+    }
+    #gameplay_container .right_section .top video, #gameplay_container .right_section .bot video {
+        width: 48%;
+        height: 90%;
+        margin: 10px;
+    }
+
+}
+
+
+@media (min-width: 1800px) {
+    #gameplay_container .left_section {
+        flex-basis: 10%;
+    }
+    #gameplay_container .right_section {
+        flex-basis: 90%;
+    }
+
+}
