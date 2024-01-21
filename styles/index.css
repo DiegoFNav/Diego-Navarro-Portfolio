@@ -52,6 +52,7 @@
     padding: 15px;
     cursor: pointer;
     width: 100px;
+    margin: 10px;
 }
 
 
@@ -74,7 +75,6 @@
 #name {
     font-size: 40px;
     color: rgb(6, 94, 221);
-    
 }
 
 #intro_right img {
