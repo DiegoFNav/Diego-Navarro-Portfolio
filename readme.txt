@@ -34,7 +34,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 3. How long, in hours, did it take you to complete this assignment?
-
+I would say about 20 hours.
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
@@ -46,11 +46,15 @@ https://www.smashingmagazine.com/2009/11/designing-css-buttons-techniques-and-re
 https://developer.mozilla.org/en-US/
 https://depositphotos.com/photos/website-backgrounds.html
 https://yoksel.github.io/flex-cheatsheet/
+https://www.w3schools.com/css/css3_object-fit.asp
+https://stackoverflow.com/questions/33818371/how-do-you-double-space-text-and-keep-the-text-alignment-at-the-top
+https://www.pexels.com/search/videos/cooking/
+
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+I did not consult any classmates or other individuals.
 
 
 6. Is there anything special we need to know in order to run your code?
-
+No, nothing special is required to run my code.

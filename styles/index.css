@@ -38,9 +38,12 @@
 
 }
 
-#social_links img {
-    height: 30px;
+#social_links a {
+    margin: 5px;
+}
 
+#social_links img {
+    height: 40px;
 }
 
 #social_links button {
@@ -48,15 +51,30 @@
     border: 3px solid rgb(0, 0, 0);
     padding: 15px;
     cursor: pointer;
+    width: 100px;
+}
+
+
+#linkedin:hover {
+    background-color: #0056b3;
+    height: 40px;
+    border-radius: 15%;
+}
+
+#github:hover {
+    background-color: #0056b3;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#social_links button:hover {
+    background-color: #0056b3;
 }
 
 #name {
     font-size: 40px;
     color: rgb(6, 94, 221);
     
-}
-
-#intro_right {
 }
 
 #intro_right img {
@@ -107,6 +125,18 @@
     margin: 12px;
     text-align: center;
     line-height: 1.5;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project_container:hover {
+    transform: scale(1.05,1.05);
+    z-index: 1;
+}
+
+.project_container, .project_container:visited {
+    color: black;
 }
 
 #munch_logo {
@@ -114,6 +144,15 @@
     width: 50px;
 }
 
+footer {
+    text-align: center;
+    padding: 15px;
+}
+
+footer a, footer a:visited {
+    text-decoration: none;
+    color: rgb(6, 94, 221);
+}
 
 
 @media (min-width: 1200px) {

@@ -9,7 +9,10 @@
         <link rel="stylesheet" href="styles/munch.css">
         <!-- you would also link to Bootstrap here! -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Diego Navarro project Munch</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+        <title>Diego Navarro project Munch</title>
     </head>
     <body>
         <div class="topnav">
@@ -47,6 +50,12 @@
                 arrow_forward_ios
                 </span>
             </a>
+            <a href="contact.html" class="nav_link">
+                <span class="nav_text">Contact</span>
+                <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </a>
             </div>
 
         </nav>
@@ -64,33 +73,68 @@
                         <p>
                             An automatic recipe search engine that remembers what ingredients you have and gives recommendations. Efficiently utilize your ingredients so that you save time, waste, and money. Apply personalized dietary restrictions and view estimated savings from not letting your food go to waste.
                         </p>
-                        <a href="https://github.com/TheFatCatCompany/Munch_App">
-                            <img src="images/github.png" alt="">
-                        </a>
+                        <p>Best Financial Literacy Hack award at Hack at UCI 2023.</p>
+                        <div>
+                            <a href="https://github.com/TheFatCatCompany/Munch_App">
+                                <img src="images/github.png" alt="">
+                            </a>
+                            <a href="https://devpost.com/software/munch-rh24a6">
+                                <img src="images/devpost.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="demo_section">
-                <div class="container">
-                    <div>
-                        
-                    </div>
-                    <div class="container_right">
-                        <h2>Try it out yourself</h2>
-                        <p>
-                            Munch is available cross platform. Here is a link to a demo video showcasing all our features!
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=cYn0O3tvJy0&ab_channel=TheFatCatCompany">
-                            <button>Press Me</button>
-                        </a>
-                    </div>
+            <div id="demo_section" class="container">
+                <div class="container_left">
+                    <img src="images/Munch/search.jpg" alt="">
+                    <img src="images/Munch/Recipe.jpg" alt="">
+                </div>
+                <div class="container_right">
+                    <h2>Demo Showcase</h2>
+                    <p>
+                        Munch is available cross platform. Here is a link to a demo video showcasing all our features!
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=cYn0O3tvJy0&ab_channel=TheFatCatCompany" target="_blank">
+                        <button>
+                            DEMO
+                            <span class="material-symbols-outlined">
+                                open_in_new
+                            </span>
+                        </button>
+                    </a>
                 </div>
             </div>
-            
-            <a href="http://validator.w3.org/check?uri=referer">
-                W3C validator
-            </a>
+            <div id="message_section">
+                <div>
+                    <h1>Improve your home kitchen. Conserve your:</h1>
+                </div>
+                <div id="message_container">
+                    <div class="message_block" id="block_1">
+                        <img src="images/Munch/Groceries.PNG" alt="">
+                        <div>
+                            <h3>Time</h3>
+                            <p>Stay at home and reduce your grocery trips by using what you already have.</p>
+                        </div>
+                    </div>
+                    <div class="message_block" id="block_2">
+                        <img src="images/Munch/Farmer.png" alt="">
+                        <div>
+                            <h3>Waste</h3>
+                            <p>Every day Americans waste 150 tons of food. Reduce your impact and help the enviornment.</p>
+                        </div>
+                    </div>
+                    <div class="message_block" id="block_3">
+                        <img src="images/Munch/Shopper.PNG" alt="">
+                        <div>
+                            <h3>Money</h3>
+                            <p>Prevent your food from going to waste saving money on your grocery budget.</p>
+                        </div>
+                    </div>
 
+                </div>
+
+            </div>
         </main>
         <script>
             function toggleNav() {

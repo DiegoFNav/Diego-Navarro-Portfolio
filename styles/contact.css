@@ -1,0 +1,107 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/*Introduction*/
+#intro_capsule {
+    display: flex;
+    justify-content: center;
+    background-image: url("backgrounds/blocks.jpg");
+
+}
+
+#intro {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 90%;
+    margin: 200px;
+}
+
+#intro_left {
+    flex-basis: 50%;
+    padding: 50px;
+}
+
+#intro_right {
+    flex-basis: 50%;
+}
+
+#social_links {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#social_links a {
+    margin: 5px;
+}
+
+#social_links img {
+    height: 50px;
+}
+
+#social_links button {
+    background: none;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+    cursor: pointer;
+    width: 120px;
+}
+
+
+#linkedin:hover {
+    background-color: #0056b3;
+    height: 50px;
+    border-radius: 15%;
+}
+
+#github:hover {
+    background-color: #0056b3;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#social_links button:hover {
+    background-color: #0056b3;
+}
+
+#name {
+    font-size: 40px;
+    color: rgb(6, 94, 221);
+    
+}
+
+#vid_capsule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("backgrounds/blocks.jpg");
+}
+
+#programming_video {
+    height: 90%;
+    width: 90%;
+}
+
+
+@media (min-width: 1100px) {
+    #intro {
+        flex-direction: row;
+        flex-basis: 60%;
+    }
+    #programming_video {
+        height: 50%;
+        width: 50%;
+    }
+
+}
