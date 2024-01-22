@@ -98,7 +98,7 @@
     
 }
 
-#demo_section .container_right button {
+#demo_section .container_right a {
     color: white;
     background-color: #3F7652;
     padding: 15px;
@@ -107,6 +107,8 @@
     border-radius: 10%;
     cursor: pointer;
     letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
 }
 
 /*Message Section*/
@@ -142,6 +144,10 @@
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 15%;
+}
+
+.message_block div h2 {
+    font-size: larger;
 }
 
 #block_1 {

@@ -77,12 +77,12 @@
     margin: 15px;   
 }
 
-#about_section .left_section div h1, #about_section .left_section div h5 {
+#about_section .left_section div h1, #about_title {
     margin: 0;
     text-align: center;
 }
 
-#about_section .left_section div h5 {
+#about_title {
     font-size: large;
 }
 
@@ -182,7 +182,7 @@
     margin: 0;
 }
 
-.art_block .right_section h3 {
+.art_block .right_section h2 {
     margin: 0;
 }
 

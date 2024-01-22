@@ -10,7 +10,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/13
+13/13
 - 1/1 Readme
 - 2/2 Basic HTML content
 - 2/2 Basic CSS styling
@@ -22,15 +22,21 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+An image
+Links to external pages
+Headings
+Multiple pages
+Footers
+Google Material Icons
 
 (b) CSS features
-
+Modifying padding and margins
+Modifying colors
+Google fonts along with fallback fonts
 
 
 (c) Advanced features
-
+Complex page layout with a sidebar and navigation bar
 
 
 3. How long, in hours, did it take you to complete this assignment?

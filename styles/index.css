@@ -44,12 +44,14 @@
     height: 40px;
 }
 
-#social_links button {
+.rectangle_button  {
     background: none;
     border: 3px solid rgb(0, 0, 0);
     padding: 15px;
     cursor: pointer;
     width: 100px;
+    text-decoration: none;
+    color: #000;
 }
 
 
@@ -65,7 +67,7 @@
     border-radius: 50%;
 }
 
-#social_links button:hover {
+.rectangle_button:hover {
     background-color: #0056b3;
 }
 
