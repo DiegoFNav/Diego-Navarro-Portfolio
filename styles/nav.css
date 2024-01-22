@@ -48,6 +48,11 @@
     order: 1;
 }
 
+#menu:hover {
+    background-color: #0b3075;
+}
+
+
 body {
     margin: 0;
     overflow-x: hidden;
@@ -105,4 +110,16 @@ body {
 
 .nav_link:hover, .nav_close:hover {
     background: rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a, footer a:visited {
+    text-decoration: none;
+    color: rgb(6, 94, 221);
 }

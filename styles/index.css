@@ -3,8 +3,6 @@
     justify-content: center;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 }
 
@@ -142,17 +140,6 @@
     height: 50px;
     width: 50px;
 }
-
-footer {
-    text-align: center;
-    padding: 15px;
-}
-
-footer a, footer a:visited {
-    text-decoration: none;
-    color: rgb(6, 94, 221);
-}
-
 
 @media (min-width: 1200px) {
     #intro_right img {

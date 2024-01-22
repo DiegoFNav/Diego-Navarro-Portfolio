@@ -2,12 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal; */
     font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
@@ -16,7 +11,7 @@
     background-color: #6BC789;
 }
 
-.topnav a:hover {
+.topnav a:hover, #menu:hover {
     background-color: #3F7652;
 }
 

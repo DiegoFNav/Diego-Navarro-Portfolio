@@ -3,6 +3,15 @@
     font-weight: 100;
     font-style: normal;
 }
+
+.topnav {
+    background-color: rgb(94, 29, 168);
+}
+
+.topnav a:hover, #menu:hover {
+    background-color: rgb(60, 0, 128);
+}
+
 #title_section {
     display: flex;
     height: 370px;
@@ -32,10 +41,14 @@
     height: 20vh;
 }
 
-.video {
+#space, .video{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.video:hover {
+    cursor: pointer;
 }
 
 #about_section {
@@ -84,6 +97,8 @@
 
 #gameplay_section {
     background-image: url("backgrounds/city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,6 +130,74 @@
     flex-direction: column;
 }
 
+.gameplay_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.gameplay_block .left_section {
+    padding: 10px;
+}
+
+#gameplay_block_1 {
+    background-color: #58acf4;
+}
+
+#gameplay_block_2 {
+    background-color: #105edd;
+}
+
+#gameplay_block_3 {
+    background-color: #0b3075;
+}
+
+#art_title_1, #art_title_2 {
+    text-align: center;
+}
+
+.art_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.art_block .left_section {
+    flex-basis: 80%;
+}
+
+.art_block .left_section img {
+    height: 100%;
+    width: 100%;
+}
+
+.art_block .right_section {
+    flex-basis: 20%;
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.art_block .right_section h1 {
+    margin: 0;
+}
+
+.art_block .right_section h3 {
+    margin: 0;
+}
+
+
+#Luna {
+    background-color: #FFEF98;
+}
+
+#Capital_City {
+    background-color: #8ABCE6;
+}
+
+#Astertin {
+    background-color: #BADA55;
+}
 
 @media (min-width: 800px) {
     #title_section {
@@ -150,7 +233,6 @@
         height: 80%;
         width: 90%;
     }
-
 }
 
 @media (min-width: 1200px) {
@@ -201,6 +283,64 @@
         margin: 10px;
     }
 
+    #battle_section {
+        background-image: url("backgrounds/black_triangle.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gameplay_block {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        margin: 10px;
+        background-color: #E7F3C1;
+    }
+    .gameplay_block .left_section {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-basis: 25%;
+        margin: 3%;
+        padding: 3%;
+    }
+    .gameplay_block .left_section p{
+        line-height: 1.5;
+    }
+    .gameplay_block .right_section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 55%;
+        margin: 3%;
+
+    }
+    .gameplay_block .right_section video{
+        height: 90%;
+        width: 80%;
+    }
+
+    .art_block {
+        flex-direction: row;
+    }
+
+    .art_block .left_section {
+        padding: 2%;
+    }
+
+    .art_block .left_section img {
+        object-fit: contain;
+    }
+
+    .art_block .right_section {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 2;
+        padding-right: 10%;
+    }
 }
 
 
@@ -212,4 +352,14 @@
         flex-basis: 90%;
     }
 
+    #battle_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gameplay_block {
+        width: 60vw;
+        margin: 1%;
+    }
 }

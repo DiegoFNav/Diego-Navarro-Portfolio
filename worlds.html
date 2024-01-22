@@ -21,9 +21,10 @@
                 menu
             </span>
             </button>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a href="munch.html">Munch</a>
+            <a href="worlds.html">Worlds</a>
+            <a href="contact.html">Contact</a>
+            <!-- <a href="#about">About Me</a> -->
         </div>
         <nav class="nav">
             <button type="button" class="nav_close">
@@ -53,7 +54,7 @@
             <a href="contact.html" class="nav_link">
                 <span class="nav_text">Contact</span>
                 <span class="material-symbols-outlined">
-                arrow_forward_ios
+                contacts
                 </span>
             </a>
             </div>
@@ -67,7 +68,7 @@
                     <p>An Interdimensional Journey</p>
                 </div>
                 <div class="right_section">
-                    <video class="video" src="videos/space.mp4" autoplay muted loop></video>
+                    <video id="space" src="videos/space.mp4" autoplay muted loop></video>
                 </div>
             </div>
 
@@ -102,14 +103,80 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-            <p>
-            <a href="http://validator.w3.org/check?uri=referer">
-                W3C validator
-            </a>
-            </p>
+            <div id="battle_section">
+                <div class="gameplay_block">
+                    <div class="left_section">
+                        <h2>Battle Tutorial</h2>
+                        <p>The first battle of the game. Learn basic mechanics and see how the player interacts with UI elements.</p>
+                    </div>
+                    <div class="right_section" id="gameplay_block_1">
+                        <video class="video" src="videos/battle_1.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="gameplay_block">
+                    <div class="left_section">
+                        <h2>Skills and Teammates</h2>
+                        <p>Most attacks in the game fall under the Skills tab. These attacks have unique effects and elements. Also as the player progresses they will gain more teammates to utilize in battle.</p>
+                    </div>
+                    <div class="right_section" id="gameplay_block_2">
+                        <video class="video" src="videos/battle_2.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="gameplay_block">
+                    <div class="left_section">
+                        <h2>Boss Battle</h2>
+                        <p>The first Boss battle challenges the player to utilize all they have learned from the first World. Every world ends with a battle with the villain the heroes have been fighting against.</p>
+                    </div>
+                    <div class="right_section" id="gameplay_block_3">
+                        <video class="video" src="videos/battle_3.mp4" controls></video>
+                    </div>
+                </div>
+            </div>
 
+            <h1 id="art_title_1" class="suez-one-regular">Art</h1>
+            <p id="art_title_2">Examples of art assets for each of the first 3 worlds</p>
+            <div id="art_section">
+                <div class="art_block" id="Luna">
+                    <div class="left_section">
+                        <img src="images/Worlds/Luna.png" alt="">
+                    </div>
+                    <div class="right_section">
+                        <h1 class="suez-one-regular">Luna</h1>
+                        <h3>The Isolated Island</h3>
+                        <p>In a small farming village on the coast of the island Luna, the player begins their journey. Luna's people have never seen anything off the island. Their world is completely covered in water with the island as the only form of civilization.</p>
+                        <p>Joining up with their childhood friend Abbey, the player sets off on their usual routine. They constantly stare into the night sky hoping there would be a way to leave Luna.</p>
+                    </div>
+                </div>
+                <div class="art_block" id="Capital_City">
+                    <div class="left_section">
+                        <img src="images/Worlds/Capital_City.PNG" alt="">
+                    </div>
+                    <div class="right_section">
+                        <h1 class="suez-one-regular">Capital City</h1>
+                        <h3>Center of the Multiverse</h3>
+                        <p>A society of robots named the Minibots discovered the power to travel across dimensions. For ages their world served as the center of the Multiverse as they explored vast dimensions. They rightly named their world Capital City.</p>
+                        <p>However, the leaders of the Minibots named the High Council shut off interdimensional travel centuries ago. Now with evidence that someone else has achieved Multiverse travel, King Minibot heads out to investigate. Joining the player they discover a threat coming to the Multiverse.</p>
+                    </div>
+                </div>
+                <div class="art_block" id="Astertin">
+                    <div class="left_section">
+                        <img src="images/Worlds/Astertin.PNG" alt="">
+                    </div>
+                    <div class="right_section">
+                        <h1 class="suez-one-regular">Astertin</h1>
+                        <h3>The World Divided</h3>
+                        <p>The world of Astertin is controlled by two civilizations of people, the Aquinosians and the Teratins. For ages they coexisted together, however when interdimensional connection was shut off they quickly seperated. The Aquinosians, merpeople with expertise in magic set off to the deep ocean. The Teratins, insectoids with advanced technology stayed in the lush forests of the land.</p>
+                        <p>Now the player arrives seeking help only to find two groups unwilling to co-operate as they face invasion from the nefarious Dr. Konlo.</p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                Created by
+                <a href="https://www.linkedin.com/in/diego-navarro-179a1824a/">
+                    Diego Navarro
+                </a>
+            </footer>
         </main>
         <script>
             function toggleNav() {
