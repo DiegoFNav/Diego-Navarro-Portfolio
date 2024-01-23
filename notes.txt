@@ -1,0 +1,4 @@
+Chnage font of top nav bar
+change color of that blue block saying the Multiverse Awaits
+maybe add shadow around boxes
+in footer add a github link to this site's repo
